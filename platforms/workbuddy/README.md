@@ -2,6 +2,10 @@
 
 WorkBuddy 官方支持的目录为一个 Skill 根文件夹，内部是 SKILL.md 和可选 references/scripts/templates；前置信息有中文、英文简介、作者和 SemVer 版本。详见 [官方文档](https://open.workbuddy.cn/docs/skill)。
 
+## 下载已打包版本
+
+**[WorkBuddy v2.1.0 ZIP](../../downloads/workbuddy-analytical-reading-v2.1.0.zip)**（从本文件所在目录返回两级到仓库根目录）；也可自行从源码构建。版本化 ZIP 中只包含安装所需的 Skill 文件，不含开发用脚本或测试。
+
 ## 构建上传包
 
 仓库根目录执行：
