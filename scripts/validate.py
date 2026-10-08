@@ -54,7 +54,7 @@ def check() -> list[str]:
             errors.append(f"{path}: description required, <=1024 chars")
         expected = {"description_zh", "description_en", "version", "author"} if workbuddy else {"license", "metadata"}
         for key in expected:
-            if not fields.get(key):
+            if key not in fields or (key != "metadata" and not fields[key]):
                 errors.append(f"{path}: missing {key}")
         if workbuddy and fields.get("version") != VERSION:
             errors.append(f"{path}: version != {VERSION}")
