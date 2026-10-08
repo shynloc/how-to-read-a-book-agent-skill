@@ -20,7 +20,7 @@
 
 - **[WorkBuddy 专版 ZIP](downloads/workbuddy-analytical-reading-v2.1.0.zip)** — 独立市场安装目录，中英文元数据和 @references，适合提交至 WorkBuddy 技能市场。
 - **[通用 Agent Skills ZIP](downloads/analytical-reading-agent-skill-v2.1.0.zip)** — 适合符合 Agent Skills 规范的客户端。
-- 两个安装包均为公开仓库内的版本化文件，不需依赖 CI 临时下载链接。构建产物另可从 [GitHub Actions](../../actions) 获取。ZIP 通过自动化测试与源码逐文件比对，平台实际解析/审核仍需验证。
+- 两个安装包均为公开仓库内的版本化文件，不需依赖 CI 临时下载链接。构建产物另可从 [GitHub Actions](https://github.com/shynloc/how-to-read-a-book-agent-skill/actions) 获取。ZIP 通过自动化测试与源码逐文件比对，平台实际解析/审核仍需验证。
 
 ## 安装入口
 
