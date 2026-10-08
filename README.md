@@ -16,6 +16,10 @@
 - S1–S4 材料覆盖分级、原文证据追踪、跨版本处理、隐私保护与防提示词注入。
 - 可复制的阅读笔记模板，便于存入 Obsidian、Markdown 知识库。
 
+## 正式发布：v2.1.0
+
+[GitHub Release（带不可变版本标签和下载附件）](https://github.com/shynloc/how-to-read-a-book-agent-skill/releases/tag/v2.1.0) · [WorkBuddy 专版 ZIP](https://github.com/shynloc/how-to-read-a-book-agent-skill/releases/download/v2.1.0/workbuddy-analytical-reading-v2.1.0.zip) · [通用版 ZIP](https://github.com/shynloc/how-to-read-a-book-agent-skill/releases/download/v2.1.0/analytical-reading-agent-skill-v2.1.0.zip)
+
 ## 直接下载 v2.1.0
 
 - **[WorkBuddy 专版 ZIP](downloads/workbuddy-analytical-reading-v2.1.0.zip)** — 独立市场安装目录，中英文元数据和 @references，适合提交至 WorkBuddy 技能市场。
