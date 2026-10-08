@@ -29,6 +29,21 @@ class SkillContractTests(unittest.TestCase):
             self.assertEqual((CORE / "references" / name).read_bytes(),
                              (WORKBUDDY / "references" / name).read_bytes())
 
+    def test_checked_in_downloads_match_source(self):
+        pairs = [
+            ("analytical-reading-agent-skill-v2.1.0.zip", CORE),
+            ("workbuddy-analytical-reading-v2.1.0.zip", WORKBUDDY),
+        ]
+        for zip_name, folder in pairs:
+            with ZipFile(ROOT / "downloads" / zip_name) as zf:
+                expected = {
+                    "analytical-reading/" + str(f.relative_to(folder)).replace("\\", "/"): f.read_bytes()
+                    for f in folder.rglob("*") if f.is_file() and not f.name.startswith(".")
+                }
+                self.assertEqual(set(zf.namelist()), set(expected))
+                for member, content in expected.items():
+                    self.assertEqual(zf.read(member), content, f"stale archive: {zip_name}: {member}")
+
     def test_both_zips_have_single_skill_root(self):
         with TemporaryDirectory() as temp:
             for folder in (CORE, WORKBUDDY):
