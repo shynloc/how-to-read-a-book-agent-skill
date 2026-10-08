@@ -14,7 +14,7 @@ def pack(folder: Path, output: Path) -> None:
                 # A single top-level skill directory, matching YAML 'name'.
                 path_in_zip = Path("analytical-reading") / source.relative_to(folder)
                 archive.write(source, path_in_zip.as_posix())
-    print("built:", output.relative_to(ROOT))
+    print("built:", output)
 
 
 def main() -> int:
