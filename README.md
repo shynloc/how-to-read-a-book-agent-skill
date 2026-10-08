@@ -34,8 +34,8 @@
 | **WorkBuddy 技能市场专版** | [platforms/workbuddy/analytical-reading](platforms/workbuddy/analytical-reading/) | 独立 ZIP 根目录；中英文市场元数据；`@references/...` |
 | ChatGPT / 自定义 GPT | [platforms/chatgpt/](platforms/chatgpt/) | 便携指令；部分环境不支持原生 Skill 安装 |
 | Claude Projects / Web | [platforms/claude/](platforms/claude/) | Project Instructions 便携版 |
-| Codex / OpenClaw 等 Agent Skills 宿主 | [docs/PLATFORMS.md](docs/PLATFORMS.md) | 以宿主当前 Skill 加载机制为准 |
-| NotebookLM / 其他仅支持提示词的平台 | [platforms/portable/PORTABLE-PROMPT.md](platforms/portable/PORTABLE-PROMPT.md) | 属于提示词移植，不声称原生 Skill 兼容 |
+| Codex | [platforms/codex/README.md](platforms/codex/README.md) | Skill Installer / 本地目录安装，运行待测 |\n| OpenClaw | [platforms/openclaw/README.md](platforms/openclaw/README.md) | 工作区 Skill 目录安装，运行待测 |
+| NotebookLM | [platforms/notebooklm/README.md](platforms/notebooklm/README.md) | 使用 Sources 与便携指令，非原生安装 |\n| 其他仅支持提示词的平台 | [platforms/portable/PORTABLE-PROMPT.md](platforms/portable/PORTABLE-PROMPT.md) | 属于提示词移植，不声称原生 Skill 兼容 |
 
 ### WorkBuddy 专版安装
 
